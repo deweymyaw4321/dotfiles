@@ -1,0 +1,10 @@
+# Dark Theme
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+
+# Font Size and Style
+rofi.font: Monopace Regular 10
+
+# Change rofi's window appearance and 3 columns
+rofi.width: 30
+rofi.lines: 10
+rofi.columns: 3
