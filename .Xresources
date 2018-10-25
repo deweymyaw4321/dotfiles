@@ -1,0 +1,40 @@
+!for Xterm
+XTerm.vt100.utf8: 2
+XTerm.vt100.locale: true
+!XTerm.vt100.faceName: Liberation Mono:size=10:antialias:true
+XTerm.vt100.faceName: scientifica:size=12:antialias:true
+XTerm.vt100.font: 7x13
+XTerm.vt100.renderFont:true
+XTerm.vt100.internalBorder: 40
+XTerm.vt100.multiScroll: true
+
+! for urxvt-unicode
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! hide scrollbar
+URxvt.scrollBar: false
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+! font
+
+!URxvt.font: xft:Liberation Mono:size=10
+URxvt.letterSpace: 0
+URxvt.font: xft:xos4 Terminus:size=9
+!URxvt.font: xft:curie:size=12
+!URxvt.font: xft: scientifica:size=11
+
+URxvt*skipBuiltinGlyphs: true
+
+! padding
+URxvt.internalBorder: 40
+
+st.internalBorder: 40

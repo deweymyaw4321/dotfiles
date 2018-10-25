@@ -2,9 +2,13 @@
 rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 
 # Font Size and Style
-rofi.font: Monopace Regular 10
+#rofi.font: xos4 Terminus 10
+#rofi.font: Liberation Mono 9.5
+rofi.font: curie 12
+rofi.antialias: true
 
 # Change rofi's window appearance and 3 columns
-rofi.width: 30
+rofi.width: 20
 rofi.lines: 10
-rofi.columns: 3
+rofi.columns: 1
+rofi.internalBorder: 40
