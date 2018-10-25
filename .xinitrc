@@ -13,7 +13,14 @@ fi
 # reload Xresources
 xrdb -merge ~/.Xresources
 
-exec i3
-#exec 2bwm
+
+~/.config/polybar/launch.sh &
+compton & wal -R 
+
+#exec i3
+exec 2bwm  
 #exec startxfce4
+
+
+
 
